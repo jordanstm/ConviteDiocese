@@ -11,7 +11,7 @@ root.render(
   <Router>
     <Switch>
       <Route path='/' component={App} />
-      <Route path='/:Nome' component={Nomeado} />
+      <Route path='Nomeado/:Nome' component={Nomeado}/>
 
     </Switch>
 
