@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import App1 from './App';
+import Nomeado from './Nomeado';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
@@ -11,7 +11,7 @@ root.render(
   <Router>
     <Switch>
       <Route path='/' component={App} />
-      <Route path='/:Nome' component={App1} />
+      <Route path='/:Nome' component={Nomeado} />
 
     </Switch>
 
