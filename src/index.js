@@ -11,10 +11,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Router>
     <Switch>
-    <Route path='/:Nome' component={Nomeado} /> 
-       <Route path='/' component={App} /> 
-       
-     
+      <Route path='/:Nome' component={Nomeado} />
+      <Route path='/' component={App} />
+
+
 
     </Switch>
 
