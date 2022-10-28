@@ -2,16 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Nomeado from './Nomeado';
 import reportWebVitals from './reportWebVitals';
+import Nomeado from './Nomeado'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <Router>
     <Switch>
-      <Route path='/' component={App} />
-      <Route path='/:Nome' component={Nomeado}/>
+    <Route path='/:Nome' component={Nomeado} /> 
+       <Route path='/' component={App} /> 
+       
+     
 
     </Switch>
 

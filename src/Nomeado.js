@@ -1,10 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import logo from './Convite.jpeg';
-
 function Nomeado() {
   
-    let { Nome } = useParams();
+    let { Nome } = useParams();    
     return (
         <div className="App">              
         <header className="App-header">            
