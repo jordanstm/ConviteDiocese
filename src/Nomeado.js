@@ -1,5 +1,5 @@
 import React from 'react';
-import { useParams } from 'react-router-dom';
+//import { useParams } from 'react-router-dom';
 import logo from './Convite.png';
 function Nomeado(props) {
    let N = props.match.params.Nome;
