@@ -13,9 +13,6 @@ root.render(
     <Switch>
       <Route path='/:Nome' component={Nomeado} />
       <Route path='/' component={App} />
-
-
-
     </Switch>
 
   </Router>
